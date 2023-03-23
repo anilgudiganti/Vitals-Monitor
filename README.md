@@ -12,19 +12,18 @@ Features:
 Usage for ALARM:
 1) Open the HTML file in your web browser.
 2) Set the alarm time using the input fields provided.
-3) Click the "Set Alarm" button.
+3) Click the "Set Alarm" button or directly click on "Check Vitals" button.
 4) Wait for the alarm time to be reached.
-5) When the alarm time is reached, an alert notification will be poped.
+5) When the alarm time is reached, an alert notification will be poped then click on "Check Vitals" button.
 
-Usage for Vitals Monitor :
-1) Open the HTML file in your web browser.
-2) Place your finger on the pulse sensor and enter the data in the input field to monitor your heart rate.
-3) Use the cuff and stethoscope and enter the data in the input field to monitor your blood pressure.
-4) Use the finger clip and enter the data in the input field to monitor your oxygen saturation levels.
-5) Based on the given vitals data, the system will give the present heart condition based on your heart beats per second, category of blood Pressure and oxygen saturation level.
+Usage for Vitals Monitor (After clicking on the Check Vitals button) :
+1) Place your finger on the pulse sensor and enter the data in the input field to monitor your heart rate.
+2) Use the cuff and stethoscope or BP Machine and enter the data in the input field to monitor your blood pressure.
+3) Use the finger clip and enter the data in the input field to monitor your oxygen saturation levels.
+4) Based on the given vitals data, the system will give the present heart condition based on your heart beats per second, category of blood Pressure and oxygen saturation level.
 
 Conclusion :
-These two web applications - the Alarm Clock and the Resting Vitals Monitor - demonstrate the versatility and practicality of using HTML, CSS and JavaScript to create simple yet effective web applications. Both applications provide useful functionality that can benefit users in their daily lives.
+The Alarm Clock and the Resting Vitals Monitor - demonstrate the versatility and practicality of using HTML, CSS and JavaScript to create simple yet effective web application. Both applications provide useful functionality that can benefit users in their daily lives.
 
 The Alarm Clock provides a reliable way for users to set and receive pop-up for important events, while the Resting Vitals Monitor allows users to easily enter and  monitor their health vitals.
 
