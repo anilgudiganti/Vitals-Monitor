@@ -21,6 +21,7 @@ Usage for Vitals Monitor (After clicking on the Check Vitals button) :
 2) Use the cuff and stethoscope or BP Machine and enter the data in the input field to monitor your blood pressure.
 3) Use the finger clip and enter the data in the input field to monitor your oxygen saturation levels.
 4) Based on the given vitals data, the system will give the present heart condition based on your heart beats per second, category of blood Pressure and oxygen saturation level.
+5) Once's done with checking the vitals, the user can click on the back button and set an alarm for the next time to check the resting vitals.
 
 Conclusion :
 The Alarm Clock and the Resting Vitals Monitor - demonstrate the versatility and practicality of using HTML, CSS and JavaScript to create simple yet effective web application. Both applications provide useful functionality that can benefit users in their daily lives.
