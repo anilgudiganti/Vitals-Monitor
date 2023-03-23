@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Check Your vitals</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section1">
+        <h1 class="head_clock">Alarm Clock</h1>
+        <h2>Set alarm to Check your vitals:</h2>
+        <input placeholder="Enter time Here" type="time" id="alarmTime">
+        <button onclick="setAlarm()">Set Alarm</button>
+        <div>
+            <button class="check" onclick="checkVitals()">Check Vitals</button>
+        </div>
+    </div>
+    <div class="d-none" id="section2">
+        <div class="container">
+            <h1>Resting Vitals Monitoring</h1>
+            <form>
+                <div class="form-group">
+                    <label for="heart-rate">Heart Rate:</label>
+                    <input type="number" id="heart-rate" name="heart-rate" placeholder="Enter heart rate in beats per minute" required>
+                </div>
+                <div class="form-group">
+                    <label for="blood-pressure">Blood Pressure:</label>
+                    <input type="number" id="blood-pressure" name="blood-pressure" placeholder="Enter blood pressure in mmHg" required>
+                </div>
+                <div class="form-group">
+                    <label for="oxygen-levels">Oxygen Levels:</label>
+                    <input type="number" id="oxygen-levels" name="oxygen-levels" placeholder="Enter oxygen levels in % saturation" required>
+                </div>
+                <div class="d-flex flex-row">
+                    <button type="submit" onclick="button1()">Submit</button>
+                    <button type="submit" onclick="button2()" class="backbutton">Back</button>
+                </div>
+            </form>
+            <div class="para">
+                <p class="message" id="message"></p>
+                <p class="message" id="blood"></p>
+                <p class="message" id="oxygen"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
