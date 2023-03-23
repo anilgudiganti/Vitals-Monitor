@@ -32,5 +32,6 @@ The Alarm Clock provides a reliable way for users to set and receive pop-up for 
 Overall, the Alarm Clock and Resting Vitals Monitor showcase the power and potential of HTML, CSS and JavaScript in creating useful and practical web applications that can benefit users in various aspects of their daily lives.
 
 Screenshots of the application - https://drive.google.com/drive/folders/1vsv_14vyQNavPL_ecx4yOTEF3sMRB0tl?usp=share_link
+
 application link - https://vitalmonitor.ccbp.tech/
 
